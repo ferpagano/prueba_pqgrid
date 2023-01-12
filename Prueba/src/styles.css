@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~pqgrid/pqgrid.min.css';
+@import '~pqgrid/pqgrid.ui.min.css';
+@import '~pqgrid/themes/steelblue/pqgrid.css';
+
+@import '~jquery-ui-pack/jquery-ui.css';
+@import '~jquery-ui-pack/jquery-ui.structure.css';
+@import '~jquery-ui-pack/jquery-ui.theme.css';
+
