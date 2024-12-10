@@ -141,4 +141,24 @@ export class AppComponent {
     },
   };
 
+  chartData = {
+    labels: this.data1.map(item => item.company),
+    datasets: [
+      {
+        label: 'Revenues',
+        data: this.data1.map(item => item.revenues),
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 1,
+      },
+      {
+        label: 'Profits',
+        data: this.data1.map(item => item.profits),
+        backgroundColor: 'rgba(153, 102, 255, 0.2)',
+        borderColor: 'rgba(153, 102, 255, 1)',
+        borderWidth: 1,
+      },
+    ],
+  };
+
 }
